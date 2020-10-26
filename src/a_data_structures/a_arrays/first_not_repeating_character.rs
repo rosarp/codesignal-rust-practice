@@ -1,6 +1,7 @@
 use std::collections::HashMap;
 use std::collections::HashSet;
 
+#[allow(dead_code)]
 fn first_not_repeating_character(input_string: String) -> char {
     let mut duplicate_chars : HashSet<char> = HashSet::new();
     let mut chars_index : HashMap<char, usize> = HashMap::new();

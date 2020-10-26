@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 fn rotate_image(image: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
   let mut rotated_image : Vec<Vec<i32>> = vec![vec![0; image.len()]; image.len()];
   for i in 0..image.len() {

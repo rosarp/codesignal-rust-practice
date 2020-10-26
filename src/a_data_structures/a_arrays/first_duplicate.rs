@@ -1,5 +1,6 @@
 use std::collections::HashSet;
 
+#[allow(dead_code)]
 fn first_duplicate(input_vec: Vec<i32>) -> i32 {
     let mut set = HashSet::new();
     for val in &input_vec {
